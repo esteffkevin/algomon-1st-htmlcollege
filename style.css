@@ -1,0 +1,221 @@
+/* Body styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Specify the font family */
+  font-size: large; /* Set the font size */
+  background-color: rgb(79, 139, 79); /* set the background colour */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  color: #bbecbb; /* Set text colour */
+  text-align: justify; /* justify text */
+}
+
+/* background styles */
+.background1 {
+  background-image: url(./pictures/backgrounds/forestpixel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background-image: url(./pictures/backgrounds/forestbackgif.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background3 {
+  background-image: url(./pictures/backgrounds/forestback3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background4 {
+  background-image: url(./pictures/backgrounds/forestback4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.822);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.logo {
+  position: absolute; /* Position the logo absolutely within the header */
+  top: 0; /* Adjust the top position as needed */
+  left: 20px; /* Adjust the left position as needed */
+  width: 90px; /* Adjust the width of the logo as needed */
+  height: auto; /* Let the height adjust proportionally */
+  z-index: 1; /* Ensure the logo is above other content */
+  border: none;
+}
+
+/* Navigation menu styles */
+nav ul { 
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* to be in one line instead of list */
+  margin-right: 40px; /* space between the options */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* section styles */
+.section {
+  padding: 20px 0; /* distance between the sections */
+}
+
+/* footer styles */
+.aboutfooter, .imgfooter, .signupfooter, .downloadfooter, .homefooter{
+  background-color: #3e3e3e;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+}
+
+/* button styles */
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+} 
+
+.loginbutton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+} 
+
+/* text styles */
+text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text1 {
+  margin: left;
+  width: 80%;
+}
+
+img {
+  max-width: 40%;
+  float: right;
+  border: 3px solid;
+  border-radius: 15px;
+  border-color: orange;
+}
+
+.text-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.cuties {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distributes items evenly with space between them */
+  padding: 0 20px; /* Add padding to the sides */
+}
+
+.cuties img {
+  width: 220px;
+  margin: 30px;
+  object-fit: cover;
+}
+
+.cuties img:hover {
+  border-color: rgb(124, 255, 24); /* Brighter border colour on hover */
+}
+
+#login, #about, #download {
+  padding: 15px;
+}
+
+#whatisalgomon, #mission, #team, .download-page {
+  padding: 15px;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+.download-link:visited {
+  color: rgb(0, 255, 21);
+}
+
+.download-link:hover {
+  color: orange;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+.table th, .table td {
+  border: 2px solid #bbecbb;
+}
+
+.signup {
+  padding: 20px;
+  text-align: center;
+}
+
+.signup-form input {
+  display: center;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.signup-form button {
+  display: center;
+  width: 51%;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dwloadbtn, .signin {
+  color: white;
+}
+
+.signup-form button:hover {
+  background-color: #45a049;
+}
+
+.signin:hover, .dwloadbtn:hover {
+  color: orange;
+}
+
+.warning {
+  color: rgb(255, 111, 0);
+}
